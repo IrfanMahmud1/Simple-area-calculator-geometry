@@ -16,7 +16,7 @@
                 <h1 class="text-4xl font-bold">Interactive</h1>
                 <h2 class="text-xl">Geometry Genius</h2>
               </div>
-                <button class="bg-violet-500 px-5 mt-4 sm:my-auto text-white rounded ">Blog</button>
+                <button id="btn-blog" class="bg-violet-500 px-5 mt-4 sm:my-auto text-white rounded ">Blog</button>
             </nav>
           </div>
     </header>
@@ -50,11 +50,11 @@
                             <p>Area (A) = l X w</p>
                         </div>
                         <div class="w-auto text-center mt-6">
-                            <input class="bg-slate-200 w-1/4 pl-3 rounded" type="text" placeholder="l"><span> cm</span>
-                            <input class="bg-slate-200 w-1/4 pl-3 rounded"  type="text" placeholder="w"><span> cm</span>
+                            <input id="rectangle-length" class="bg-slate-200 w-1/4 pl-3 rounded"  type="text" placeholder="l"><span> cm</span>
+                            <input id="rectangle-width" class="bg-slate-200 w-1/4 pl-3 rounded" type="text" placeholder="w"><span> cm</span>
                         </div>
                         <div class="text-center">
-                            <button class="w-10/12 bg-blue-400 rounded-lg mt-12 py-4 text-white font-bold text-xl">Calculate</button>
+                            <button id="btn-rectangle" class="w-10/12 bg-blue-400 rounded-lg mt-12 py-4 text-white font-bold text-xl">Calculate</button>
                         </div>
                     </div>
                     <div class="card border border-sky-500 rounded-md py-8">
@@ -66,11 +66,11 @@
                             <p>Area (A) = b X h</p>
                         </div>
                         <div class="w-auto text-center mt-6">
-                            <input class="bg-slate-200 w-1/4 pl-3 rounded" type="text" placeholder="b"><span> cm</span>
-                            <input class="bg-slate-200 w-1/4 pl-3 rounded"  type="text" placeholder="h"><span> cm</span>
+                            <input id="parallelogram-base" class="bg-slate-200 w-1/4 pl-3 rounded" type="text" placeholder="b"><span> cm</span>
+                            <input id="parallelogram-height" class="bg-slate-200 w-1/4 pl-3 rounded"  type="text" placeholder="h"><span> cm</span>
                         </div>
                         <div class="text-center">
-                            <button class="w-10/12 bg-blue-400 rounded-lg mt-12 py-4 text-white font-bold text-xl">Calculate</button>
+                            <button id="btn-parallelogram" class="w-10/12 bg-blue-400 rounded-lg mt-12 py-4 text-white font-bold text-xl">Calculate</button>
                         </div>
                     </div>
                     <div class="card border border-sky-500 rounded-md py-8">
@@ -82,11 +82,11 @@
                             <p>Area (A) = 0.5 X d1 X d2</p>
                         </div>
                         <div class="w-auto text-center mt-6">
-                            <input class="bg-slate-200 w-1/4 pl-3 rounded" type="text" placeholder="d1"><span> cm</span>
-                            <input class="bg-slate-200 w-1/4 pl-3 rounded"  type="text" placeholder="d2"><span> cm</span>
+                            <input id="rhombus-d1" class="bg-slate-200 w-1/4 pl-3 rounded" type="text" placeholder="d1"><span> cm</span>
+                            <input id="rhombus-d2" class="bg-slate-200 w-1/4 pl-3 rounded"  type="text" placeholder="d2"><span> cm</span>
                         </div>
                         <div class="text-center">
-                            <button class="w-10/12 bg-blue-400 rounded-lg mt-12 py-4 text-white font-bold text-xl">Calculate</button>
+                            <button id="btn-rhombus" class="w-10/12 bg-blue-400 rounded-lg mt-12 py-4 text-white font-bold text-xl">Calculate</button>
                         </div>
                     </div>
                     <div class="card border border-sky-500 rounded-md py-8">
@@ -98,11 +98,11 @@
                             <p>Area (A) = 0.5 X p X b</p>
                         </div>
                         <div class="w-auto text-center mt-6">
-                            <input class="bg-slate-200 w-1/4 pl-3 rounded" type="text" placeholder="p"><span> cm</span>
-                            <input class="bg-slate-200 w-1/4 pl-3 rounded"  type="text" placeholder="b"><span> cm</span>
+                            <input id="pentagon-p" class="bg-slate-200 w-1/4 pl-3 rounded" type="text" placeholder="p"><span> cm</span>
+                            <input id="pentagon-b" class="bg-slate-200 w-1/4 pl-3 rounded"  type="text" placeholder="b"><span> cm</span>
                         </div>
                         <div class="text-center">
-                            <button class="w-10/12 bg-blue-400 rounded-lg mt-12 py-4 text-white font-bold text-xl">Calculate</button>
+                            <button id="btn-pentagon" class="w-10/12 bg-blue-400 rounded-lg mt-12 py-4 text-white font-bold text-xl">Calculate</button>
                         </div>
                     </div>
                     <div class="card border border-sky-500 rounded-md py-8">
@@ -114,15 +114,15 @@
                             <p>Area (A) = πab</p>
                         </div>
                         <div class="w-auto text-center mt-6">
-                            <input class="bg-slate-200 w-1/4 pl-3 rounded" type="text" placeholder="a"><span> cm</span>
-                            <input class="bg-slate-200 w-1/4 pl-3 rounded"  type="text" placeholder="b"><span> cm</span>
+                            <input id="ellipse-a" class="bg-slate-200 w-1/4 pl-3 rounded" type="text" placeholder="a"><span> cm</span>
+                            <input id="ellipse-b" class="bg-slate-200 w-1/4 pl-3 rounded"  type="text" placeholder="b"><span> cm</span>
                         </div>
                         <div class="text-center">
-                            <button class="w-10/12 bg-blue-400 rounded-lg mt-12 py-4 text-white font-bold text-xl">Calculate</button>
+                            <button id="btn-ellipse" class="w-10/12 bg-blue-400 rounded-lg mt-12 py-4 text-white font-bold text-xl">Calculate</button>
                         </div>
                     </div>
                 </div>
-                <div id="display-area" class="mt-5 xl:mt-0 xl:w-4/12 h-auto xl:min-h-64 px-4 border border-sky-500 rounded-md py-6 ">
+                <div id="display-area" class="mt-5 pl:12 xl:mt-0 xl:my-8 xl:w-4/12 h-auto xl:min-h-64 px-4 border border-sky-500 rounded-md py-6 ">
                     <h1 class="text-center underline underline-offset-4 font-bold mb-3">Area Calculation</h1>
                     <!-- <p>SOme thing fishy</p>
                     <p>SOme thing fishy</p> -->
@@ -132,5 +132,6 @@
         </section>
     </main>
     <script src="area.js"></script>
+    <script src="common.js"></script>
 </body>
 </html>
